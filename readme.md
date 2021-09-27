@@ -31,27 +31,23 @@ Creating a new folder or an existing folder with subfolders:<br>
 <code>jsftp_simplify.makeDir('folderName/subfolderName/subfolderName')</code>
 
 ---
-<br/>
 
 Removing a folder and its' subfolders/files:<br>
 <code>jsftp_simplify.removeDir('path/to/folderName')</code>
 
 ---
-<br>
 
 Removing a single file:<br>
 <code>jsftp_simplify.removeFile('path/to/fileName')</code>
 
 ---
 
-<br>
 Get the list-information of a folder:<br>
 <code>jsftp_simplify.ls('path/to/folderName')</code>
 <br/>
 Returns an array of objects containing <code>{name: string, size: Number, isFolder: boolean}</code>
 
 ---
-<br/>
 Renaming a folder or a file:<br>
 <code>jsftp_simplify.rename({ path: 'path/to/folderOrFilename', name: 'newName' })</code>
 
@@ -61,7 +57,6 @@ Cut a file to a directory: <br>
 <code>jsftp_simplify.xcopy({ from: 'path/to/fileName', to: 'new/path' })</code>
 
 ---
-<br/>
 
 <h1>Importrtant</h1>
 Some functions are not implemented (e.g. upload, download). Feel free to implement new functions. I'll not add new feature, however, if any issue occur I'll try to fix them.
